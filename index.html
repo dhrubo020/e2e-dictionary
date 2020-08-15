@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Dictionary</title>
+    <style>
+        .center{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container center">
+        <div class="form-control">
+            <!-- onkeyup="loadData()" -->
+        <input  id="input-word" class="form-control" type="text"><br><br>
+        <button class="btn btn-success" id="submit">Search</button>
+        <h2 id="main"></h2>
+        <h4 id="syn"></h4>
+        <p id="result"></p>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
